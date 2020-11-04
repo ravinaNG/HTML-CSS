@@ -6,14 +6,25 @@
             table, th, td {
                 border: 1px solid black;
                 border-collapse: collapse;
-                padding: 10px;
+                padding: 30px;
+                border-spacing: 10; /* No use of this because I have already used border-collapse: */
             }
+            .firstColumn{
+                font-weight: bold;
+            }
+            .center{
+                margin-left: auto;
+                margin-right: auto;
+                display: table-cell;
+                vertical-align: middle;
+                }
         </style>
     </head>
     <body>
-        <table>
+        <table align="center", cclass="center">
+            <caption>Daily Routine</caption>
             <tr>
-                <th></th>
+                <th class="firstColumn"></th>
                 <th>Monday</th>
                 <th>Tuesday</th>
                 <th>Wednesday</th>
@@ -23,7 +34,7 @@
                 <th>Sunday</th>
             </tr>
             <tr>
-                <td>1st period</td>
+                <td class="firstColumn">1st period</td>
                 <td>English</td>
                 <td></td>
                 <td></td>
@@ -33,7 +44,7 @@
                 <td></td>
             </tr>
             <tr>
-                <td>2nd period</td>
+                <td class="firstColumn">2nd period</td>
                 <td>English</td>
                 <td>English</td>
                 <td></td>
@@ -43,7 +54,7 @@
                 <td></td>
             </tr>
             <tr>
-                <td>3rd period</td>
+                <td class="firstColumn">3rd period</td>
                 <td></td>
                 <td>German</td>
                 <td></td>
@@ -53,7 +64,7 @@
                 <td></td>
             </tr>
             <tr>
-                <td>4th period</td>
+                <td class="firstColumn">4th period</td>
                 <td></td>
                 <td>German</td>
                 <td></td>
