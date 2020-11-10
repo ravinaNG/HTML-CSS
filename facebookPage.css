@@ -27,6 +27,8 @@ form {
   /* Add a hover effect for buttons */
   button:hover {
     opacity: 0.8;
+    /* color: orangered; */
+    background-color: orangered;
   }
   
   /* Extra style for the cancel button (red) */
@@ -51,8 +53,5 @@ form {
     span.psw {
       display: block;
       float: none;
-    }
-    .cancelbtn {
-      width: 50px;
     }
   }
