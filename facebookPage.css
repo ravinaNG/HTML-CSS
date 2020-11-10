@@ -36,24 +36,11 @@ form {
     background-color: #f44336;
   }
   
-  /* Center the avatar image inside this container */
-  .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-  }
-  
-  /* Avatar image */
-  img.avatar {
-    width: 10%;
-    border-radius: 10%;
-  }
-  
   /* Add padding to containers */
   .container {
-    padding: 2px;
+    padding: 20px;
   }
-  
-  /* The "Forgot password" text */
+
   span.psw {
     float: right;
     padding-top: 16px;
@@ -66,6 +53,6 @@ form {
       float: none;
     }
     .cancelbtn {
-      width: 100%;
+      width: 50px;
     }
   }
