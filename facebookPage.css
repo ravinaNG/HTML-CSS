@@ -1,4 +1,11 @@
-/* Bordered form */
+img.fb_logo {
+  width: 20%;
+  height: 106;
+  margin: -28 px;
+  border: 0;
+}
+
+Bordered form
 form {
     border: 3px solid #f1f1f1;
   }
@@ -15,7 +22,7 @@ form {
   }
   
   /* Set a style for all buttons */
-  button {
+  button { 
     border-radius: 10px;
     background-color: #4CAF50;
     color: white;
@@ -33,7 +40,7 @@ form {
   }
   
   /* Extra style for the cancel button (red) */
-  .cancelbtn {
+  .cancelbtn { 
     width: auto;
     padding: 10px 18px;
     background-color: #f44336;
@@ -49,18 +56,18 @@ form {
     float: right;
     padding-top: 16px;
   }
-  
+
   /* forgot password */
   .forgotPsw {
     text-decoration: none;
-    /* padding: 14px 16px; */
+    padding: 14px 16px;
     text-align: right;
   }
 
   /* submit button */
   .submitButton {
-    width: 100;
+    width: 100; 
     float: right;
-    /* padding: 14px 16px;
-    margin: 2px 0; */
-  }
+    padding: 14px 16px;
+    margin: 2px 0;
+  } 
