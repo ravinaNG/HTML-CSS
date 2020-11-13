@@ -1,3 +1,7 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
 body {
   background: #edf0f5;
 }
@@ -20,22 +24,24 @@ form {
   
   /* Set a style for all buttons */
   button { 
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: #4CAF50;
     color: white;
     padding: 14px 16px;
     margin: 2px 0;
     border: none;
     cursor: pointer;
-    width: 150%;
+    width: 100%;
   }
 
   /* moving the login form */
   input[type=text], input[type=password], button[type=submit] {
-    width: 150%;
+    font-size: 17px;
+    width: 100%;
   }
   .mainDiv {
     padding: 200px;
+    /* width: 100%; */
   }
   .textDiv {
     float: left;
@@ -49,14 +55,27 @@ form {
     font-size: 200%;
   }
   .formDiv {
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    float: right;
-    width: 200;
+    width: 40%;
+    height: 50%;
+    position: relative;
+    /* box-shadow: 25px 10px 15px 25px rgba(0,0,0,0.2); */
+    /* float: right; */
+    margin-left: 60%;
+    /* justify-content: center; */
+    
+    
   }
   .forgotPsw {
-    text-align: right;
+    text-align: center;
+    padding: 3%;
   }
 
+  .submitButton {
+    width: 60%;
+    /* padding: 10%; */
+    margin-left: 20%;
+    margin-top: 8%;
+  }
   /* Add a hover effect for buttons */
   button:hover {
     opacity: 0.8;
